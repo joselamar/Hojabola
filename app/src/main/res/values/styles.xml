@@ -1,0 +1,230 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="LoginTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">#000000</item>
+        <item name="colorControlActivated">#000000</item>
+        <item name="colorControlHighlight">#000000</item>
+        <item name="colorButtonNormal">#959190</item>
+    </style>
+
+    <style name="RegisterTheme" parent="Theme.AppCompat.Light">
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorPrimaryDark">#FFFFFF</item>
+        <item name="colorAccent">#000000</item>
+        <item name="colorControlNormal">#000000</item>
+        <item name="colorControlActivated">#000000</item>
+        <item name="colorControlHighlight">#000000</item>
+    </style>
+
+    <style name="aves" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/aves</item>
+        <item name="colorPrimary">#F8F7F7</item>
+        <item name="android:statusBarColor">#967A17</item>
+        <item name="colorAccent">#967A17</item>
+        <item name="colorControlNormal">#000000</item>
+        <item name="colorButtonNormal">#DE151B</item>
+    </style>
+
+    <style name="belenenses" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/belenenses</item>
+        <item name="colorPrimary">#F6F5F5</item>
+        <item name="android:statusBarColor">#e61816</item>
+        <item name="colorAccent">#e61816</item>
+        <item name="android:textColor">#F6F5F5</item>
+        <item name="colorControlNormal">#FFFFFF</item>
+        <item name="colorButtonNormal">#5095d5</item>
+    </style>
+
+    <style name="benfica" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/benfica</item>
+        <item name="colorPrimary">#F6F5F5</item>
+        <item name="android:statusBarColor">#e61816</item>
+        <item name="colorAccent">#e61816</item>
+        <item name="android:textColor">#f6aa1c</item>
+        <item name="colorControlNormal">#000000</item>
+        <item name="colorButtonNormal">#621708</item>
+    </style>
+
+    <style name="boavista" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/boavista</item>
+        <item name="colorPrimary">#F6F5F5</item>
+        <item name="android:statusBarColor">#CDC208</item>
+        <item name="colorAccent">#CDC208</item>
+        <item name="android:textColor">#26331E</item>
+        <item name="colorControlNormal">#000000</item>
+        <item name="android:colorButtonNormal">#989898</item>
+        <item name="android:textColorSecondary">@color/boavista</item>
+    </style>
+
+    <style name="braga" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/braga</item>
+        <item name="colorPrimary">#F6F5F5</item>
+        <item name="android:statusBarColor">#1E2428</item>
+        <item name="colorAccent">#CDC208</item>
+        <item name="android:textColor">#F4F4F4</item>
+        <item name="colorControlNormal">#000000</item>
+        <item name="android:colorButtonNormal">#B2892B</item>
+    </style>
+
+    <style name="famalicao" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/famalicao</item>
+        <item name="colorPrimary">#F6F5F5</item>
+        <item name="android:statusBarColor">#fad904</item>
+        <item name="colorAccent">#907e27</item>
+        <item name="android:textColor">#16150d</item>
+        <item name="colorControlNormal">#000000</item>
+        <item name="android:colorButtonNormal">#04449C</item>
+    </style>
+
+    <style name="porto" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/porto</item>
+        <item name="colorPrimary">#F6F5F5</item>
+        <item name="android:statusBarColor">#DA8916</item>
+        <item name="colorAccent">#CDC208</item>
+        <item name="android:textColor">#F2F5F6</item>
+        <item name="colorControlNormal">#000000</item>
+        <item name="android:colorButtonNormal">#05519A</item>
+    </style>
+
+    <style name="ferreira" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/ferreira</item>
+        <item name="colorPrimary">#3e1009</item>
+        <item name="android:statusBarColor">#e7cb47</item>
+        <item name="colorAccent">#276527</item>
+        <item name="android:textColor">#d92227</item>
+        <item name="colorControlNormal">#000000</item>
+        <item name="android:colorButtonNormal">#919196</item>
+    </style>
+
+    <style name="maritimo" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/maritimo</item>
+        <item name="colorPrimary">#F6F5F5</item>
+        <item name="android:statusBarColor">#991F1E</item>
+        <item name="colorAccent">#CDC208</item>
+        <item name="android:textColor">#F3F3F2</item>
+        <item name="colorControlNormal">#000000</item>
+        <item name="android:colorButtonNormal">#04341C</item>
+    </style>
+
+    <style name="moreirense" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/moreirense</item>
+        <item name="colorPrimary">#F6F5F5</item>
+        <item name="android:statusBarColor">#7C6406</item>
+        <item name="colorAccent">#CDC208</item>
+        <item name="android:textColor">#D5D5D4</item>
+        <item name="colorControlNormal">#000000</item>
+        <item name="android:colorButtonNormal">#155721</item>
+    </style>
+
+    <style name="gilvicente" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/gilvicente</item>
+        <item name="colorPrimary">#d84341</item>
+        <item name="android:statusBarColor">#a15452</item>
+        <item name="colorAccent">#acb6c2</item>
+        <item name="android:textColor">#eaeaec</item>
+        <item name="colorControlNormal">#eaeaec</item>
+        <item name="android:colorButtonNormal">#a15452</item>
+    </style>
+
+    <style name="portimonense" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/portimonense</item>
+        <item name="colorPrimary">#F6F5F5</item>
+        <item name="android:statusBarColor">#1D1B15</item>
+        <item name="colorAccent">#CDC208</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="colorControlNormal">#000000</item>
+        <item name="android:colorButtonNormal">#84734A</item>
+    </style>
+
+    <style name="rioave" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/rioave</item>
+        <item name="colorPrimary">#F6F5F5</item>
+        <item name="android:statusBarColor">#AA350B</item>
+        <item name="colorAccent">#CDC208</item>
+        <item name="android:textColor">#049234</item>
+        <item name="colorControlNormal">#000000</item>
+        <item name="android:colorButtonNormal">#17140D</item>
+    </style>
+
+    <style name="santaclara" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/santaclara</item>
+        <item name="colorPrimary">#F6F5F5</item>
+        <item name="android:statusBarColor">#C93432</item>
+        <item name="colorAccent">#CDC208</item>
+        <item name="android:textColor">#293030</item>
+        <item name="colorControlNormal">#000000</item>
+        <item name="android:colorButtonNormal">#C93432</item>
+    </style>
+
+    <style name="sporting" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/sporting</item>
+        <item name="colorPrimary">#F6F5F5</item>
+        <item name="android:statusBarColor">#048253</item>
+        <item name="colorAccent">#CDC208</item>
+        <item name="android:textColor">#F8FAF9</item>
+        <item name="colorControlNormal">#000000</item>
+        <item name="android:colorButtonNormal">#ECC044</item>
+    </style>
+
+    <style name="tondela" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/tondela</item>
+        <item name="colorPrimary">#F6F5F5</item>
+        <item name="android:statusBarColor">#282B28</item>
+        <item name="colorAccent">#CDC208</item>
+        <item name="android:textColor">#282B28</item>
+        <item name="colorControlNormal">#000000</item>
+        <item name="android:colorButtonNormal">#F3E505</item>
+    </style>
+
+    <style name="setubal" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/setubal</item>
+        <item name="colorPrimary">#F6F5F5</item>
+        <item name="android:statusBarColor">#066E2A</item>
+        <item name="colorAccent">#CDC208</item>
+        <item name="android:textColor">#282B28</item>
+        <item name="colorControlNormal">#000000</item>
+        <item name="android:colorButtonNormal">#E8E106</item>
+    </style>
+
+    <style name="guimaraes" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/guimaraes</item>
+        <item name="colorPrimary">#F6F5F5</item>
+        <item name="android:statusBarColor">#282B28</item>
+        <item name="colorAccent">#CDC208</item>
+        <item name="android:textColor">#282B28</item>
+        <item name="colorControlNormal">#000000</item>
+        <item name="android:colorButtonNormal">#848484</item>
+    </style>
+
+    <style name="MyTextInputLayout" parent="LoginTheme">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">10dp</item>
+    </style>
+
+    <style name="LoginTheme.chooseClub">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+    <style name="LoginTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="LoginTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="LoginTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>

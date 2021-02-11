@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#18394A</color>
+    <color name="colorPrimaryDark">#18394A</color>
+    <color name="colorAccent">#37292e</color>
+    <color name="color1">#8AC3D4</color>
+    <color name="color2">#2DB1FF</color>
+    <color name="aves">#F5C71B</color>
+    <color name="belenenses">#0f3463</color>
+    <color name="benfica">#941b0c</color>
+    <color name="boavista">#FAFAFA</color>
+    <color name="braga">#C22E29</color>
+    <color name="famalicao">#047bc3</color>
+    <color name="porto">#058DDB</color>
+    <color name="ferreira">#05a94a</color>
+    <color name="maritimo">#6F8273</color>
+    <color name="moreirense">#A38C13</color>
+    <color name="gilvicente">#294e83</color>
+    <color name="portimonense">#B48C32</color>
+    <color name="rioave">#EE9C04</color>
+    <color name="santaclara">#FBFAFA</color>
+    <color name="sporting">#7DAB7A</color>
+    <color name="tondela">#199C43</color>
+    <color name="setubal">#7DA525</color>
+    <color name="guimaraes">#F4F4F4</color>
+
+
+
+
+
+
+
+
+
+
+</resources>

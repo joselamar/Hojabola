@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/results"
+            android:icon="@drawable/ic_menu_results"
+            android:title="Resultados" />
+        <item
+            android:id="@+id/standings"
+            android:icon="@drawable/ic_menu_standings"
+            android:title="Classificação" />
+        <item
+            android:id="@+id/stadiums"
+            android:icon="@drawable/ic_menu_stadiums"
+            android:title="Estádios" />
+        <item
+            android:id="@+id/reviews"
+            android:icon="@drawable/ic_menu_reviews"
+            android:title="As minhas Críticas" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="Logout"/>
+    </group>
+</menu>
+

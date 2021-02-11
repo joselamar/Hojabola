@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="pt.ubi.di.pdm.hojabola">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Include required permissions for Google Mobile Ads to run. -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/football"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@drawable/football"
+        android:supportsRtl="true"
+        android:theme="@style/LoginTheme">
+        <activity android:name=".addCommentaryFoodPlace"></activity>
+        <activity android:name=".foodplacesActivity" />
+        <activity android:name=".addCommentary" />
+        <activity
+            android:name=".parkingComentary"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".standingsActivity"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".addParking"
+            android:launchMode="singleInstance" />
+        <activity android:name=".parkingActivity" />
+        <activity android:name=".StadiumsActivity" />
+        <activity android:name=".resultsActivity" />
+        <activity
+            android:name=".Register"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".FacebookRegister"
+            android:launchMode="singleInstance" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".chooseClub" android:launchMode="singleInstance" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3741836068351818~6036997726" />
+
+        <activity
+            android:name=".gameOptions"
+            android:launchMode="singleInstance"
+            android:theme="@style/RegisterTheme" />
+        <activity
+            android:name=".Main"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".StadiumAcitivty"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".Login"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".ForgotPassword"
+            android:launchMode="singleInstance" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="pt.ubi.di.pdm.hojabola.provider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            tools:replace="android:authorities">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"
+                tools:replace="android:resource" />
+        </provider>
+    </application>
+
+</manifest>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StadiumAcitivty">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/stadiumImage"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/stadiumName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="Nome do estádio:"
+        android:textSize="18dp"
+        app:layout_constraintTop_toBottomOf="@id/stadiumImage"/>
+    <TextView
+        android:id="@+id/stadiumNameTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="10dp"
+        android:text="stadium name"
+        app:layout_constraintTop_toBottomOf="@id/stadiumName"/>
+    <TextView
+        android:id="@+id/stadiumClub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Nome do clube:"
+        android:textSize="18dp"
+        app:layout_constraintTop_toBottomOf="@id/stadiumNameTag"
+        tools:layout_editor_absoluteX="30dp" />
+    <TextView
+        android:id="@+id/stadiumClubTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="10dp"
+        android:text="club name"
+        app:layout_constraintTop_toBottomOf="@id/stadiumClub"/>
+    <TextView
+        android:id="@+id/stadiumYear"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="Ano de Inauguração:"
+        android:textSize="18dp"
+        app:layout_constraintTop_toBottomOf="@id/stadiumClubTag"/>
+    <TextView
+        android:id="@+id/stadiumCapacity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="Capacidade: "
+        android:textSize="18dp"
+        app:layout_constraintTop_toBottomOf="@id/stadiumClubTag"
+        app:layout_constraintLeft_toRightOf="@id/stadiumYear" />
+    <TextView
+        android:id="@+id/stadiumYearTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Ano"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/stadiumYear"/>
+    <TextView
+        android:id="@+id/stadiumCapacityTag"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Capacidade"
+        app:layout_constraintTop_toBottomOf="@id/stadiumCapacity"
+        app:layout_constraintLeft_toRightOf="@id/stadiumYear" />
+    <TextView
+        android:id="@+id/stadiumHistory"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="Breve História:"
+        android:textSize="18dp"
+        app:layout_constraintTop_toBottomOf="@id/stadiumCapacityTag"/>
+
+    <TextView
+        android:id="@+id/stadiumHistoryTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:text="O Estádio do Clube Desportivo das Aves foi oficialmente inaugurado a 8 de dezembro de 1981.Fez-se um estudo arquitetónico e urbanístico com amplas ruas circundantes e espaço suficiente para estacionamento, e os vinte e seis mil metros quadrados permitiram, assim, a construção de um recinto com as dimensões oficiais.O recinto de jogos possui hoje cerca de 5 441 lugares sentados (dados oficiais da Liga Portuguesa de Futebol Profissional) sendo aproximadamente 1 500 cobertos."
+        app:layout_constraintTop_toBottomOf="@id/stadiumHistory" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
