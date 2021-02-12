@@ -1,2 +1,0 @@
-INSERT INTO `Game` (`gScore`, `Competition_idCompetition`, `gDate`, `Club_idClub`, `Club_idClub1`, `Stadium_idStadium`) VALUES (NULL, '1', '2019-03-15 20:30:00', '15', '14', '15');
-INSERT INTO `Game` (`gScore`, `Competition_idCompetition`, `gDate`, `Club_idClub`, `Club_idClub1`, `Stadium_idStadium`) VALUES (NULL, '1', '2019-03-16 15:30:00', '2', '12', '2');

@@ -32,9 +32,9 @@ contains the entity relationship model, the script to create the database and sc
 
 is the final report done in the scope of the project it contais  technologies used, related works, software engineering, some of the implementation, business model and tests.  
 
-## Features
+## Noticable Features
 
 
 ## Screenshots
 
-![screenshot](https://github.com/joselamar/Hojabola/blob/master/screenshot.png?raw=true)
+![screenshot](screenshot.png)
